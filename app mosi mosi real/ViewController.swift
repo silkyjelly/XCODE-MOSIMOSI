@@ -10,11 +10,28 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var dollImageView: UIImageView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+//        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(self.myviewTapped))
+//        playImageView.addGestureRecognizer(tapGesture)
+        
     }
-
+    
+    @objc func myviewTapped(sender: UITapGestureRecognizer) {
+        //action
+        
+        
+    }
+    
+    
+    @IBAction func startButtonTapped(_ sender: UIButton) {
+    }
+    
 
 }
+
 

@@ -12,6 +12,10 @@
 		68C602E822929B70001F655A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68C602E622929B70001F655A /* Main.storyboard */; };
 		68C602EA22929B70001F655A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68C602E922929B70001F655A /* Assets.xcassets */; };
 		68C602ED22929B70001F655A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68C602EB22929B70001F655A /* LaunchScreen.storyboard */; };
+		68C602F52292A58D001F655A /* BonekaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C602F42292A58D001F655A /* BonekaViewController.swift */; };
+		68C602F922931F6B001F655A /* pressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C602F822931F6B001F655A /* pressViewController.swift */; };
+		68D442FD229BA3BE006150ED /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 68D442FC229BA3BE006150ED /* music.mp3 */; };
+		68D442FF229BA7D2006150ED /* rock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 68D442FE229BA7D2006150ED /* rock.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		68C602E922929B70001F655A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68C602EC22929B70001F655A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68C602EE22929B70001F655A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68C602F42292A58D001F655A /* BonekaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonekaViewController.swift; sourceTree = "<group>"; };
+		68C602F822931F6B001F655A /* pressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pressViewController.swift; sourceTree = "<group>"; };
+		68D442FC229BA3BE006150ED /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		68D442FE229BA7D2006150ED /* rock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rock.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				68C602E922929B70001F655A /* Assets.xcassets */,
 				68C602EB22929B70001F655A /* LaunchScreen.storyboard */,
 				68C602EE22929B70001F655A /* Info.plist */,
+				68D442FC229BA3BE006150ED /* music.mp3 */,
+				68D442FE229BA7D2006150ED /* rock.mp3 */,
+				68C602F822931F6B001F655A /* pressViewController.swift */,
+				68C602F42292A58D001F655A /* BonekaViewController.swift */,
 			);
 			path = "app mosi mosi real";
 			sourceTree = "<group>";
@@ -125,6 +137,8 @@
 				68C602ED22929B70001F655A /* LaunchScreen.storyboard in Resources */,
 				68C602EA22929B70001F655A /* Assets.xcassets in Resources */,
 				68C602E822929B70001F655A /* Main.storyboard in Resources */,
+				68D442FD229BA3BE006150ED /* music.mp3 in Resources */,
+				68D442FF229BA7D2006150ED /* rock.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68C602F922931F6B001F655A /* pressViewController.swift in Sources */,
+				68C602F52292A58D001F655A /* BonekaViewController.swift in Sources */,
 				68C602E522929B70001F655A /* ViewController.swift in Sources */,
 				68C602E322929B70001F655A /* AppDelegate.swift in Sources */,
 			);
@@ -283,6 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99F2KF8GDF;
 				INFOPLIST_FILE = "app mosi mosi real/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +317,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99F2KF8GDF;
 				INFOPLIST_FILE = "app mosi mosi real/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
